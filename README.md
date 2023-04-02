@@ -1,4 +1,4 @@
-![Yamdb Workflow Status](https://github.com/Lobanev/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?branch=master&event=push)
+![example workflow](https://github.com/Lobanev/yamdb_final/actions/workflows/yambl_workflow.ymlbadge.svg?branch=master&event=push)
 # API YaMDB
 
 **API YaMDB** - командный проект, поддерживающий обмен данными в формате *JSON*. Развернут в 3х контейнерах (db, web, nginx) c помощью Docker.
@@ -72,4 +72,4 @@ sudo docker-compose exec web python manage.py changepassword <username superuser
 ```
 Эндпоинты, описанные в документации доступны на корневом адресе проекта: http://<server_ip_address>/api/v1/. Документация к API доступна на http://<server_ip_address>/redoc/.
 
-Пример проекта доступен по http://51.250.16.238/api/v1/ . Документация к API - http://51.250.16.238/redoc/ . 
+Пример проекта доступен по http://51.250.19.92/api/v1/ . Документация к API - http://51.250.19.92/redoc/ . 

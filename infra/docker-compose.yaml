@@ -27,7 +27,8 @@ services:
       - "80:80"
 
     volumes:
-      - ./nginx/temp/:/etc/nginx/temp
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+
       - static_value:/var/html/static/
 
       - media_value:/var/html/media/
