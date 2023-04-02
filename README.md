@@ -1,4 +1,4 @@
-![example workflow](https://github.com/Lobanev/yamdb_final/actions/workflows/yambl_workflow.ymlbadge.svg?branch=master&event=push)
+![Yamdb Workflow Status](https://github.com/Lobanev/yamdb_final/actions/workflows/yambl_workflow.yml/badge.svg?branch=master&event=push)
 # API YaMDB
 
 **API YaMDB** - командный проект, поддерживающий обмен данными в формате *JSON*. Развернут в 3х контейнерах (db, web, nginx) c помощью Docker.
